@@ -1,2 +1,2 @@
 # webpack2_boilerplate
-Boilerplate for using webpack2 without babel
+Minimal webpack2 boilerplate without babel for modern development.
