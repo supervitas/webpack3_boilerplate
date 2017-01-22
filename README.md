@@ -10,14 +10,14 @@ Minimal [webpack 2](https://github.com/webpack/webpack) + [wepback dev server](h
 </div>
 About this boilerplate:
 
-This boilerplate has minimum loaders and settings to start working with webpack 2, its great for starting new projects and adding necessary loaders on demand.
+This boilerplate includes minimum loaders and settings to start working with webpack 2, its great for starting new projects and adding necessary loaders on demand.
 
 It includes this loaders:
 
-1. css-loader
-2. style-loader
-3. file-loader
-4. url-loader
+1. ```css-loader```
+2. ```style-loader```
+3. ```file-loader```
+4. ```url-loader```
 
 And it works from the box with this file types:
 
@@ -25,6 +25,9 @@ And it works from the box with this file types:
 2. Static files - gif/png/jpg/svg
 3. Fonts - woff2/ttf/eot
 
+Instalation:
 
-To start dev server run ``` npm start ```
+1. Clone this repository
+2. Run ```npm install ```
+3. To start dev server with working HMR run ``` npm start ```
 
