@@ -1,2 +1,3 @@
 import "./app.css";
-console.log("Your code here");
+
+// Entry point from here.
