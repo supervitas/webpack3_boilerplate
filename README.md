@@ -10,12 +10,14 @@ Minimal [webpack 2](https://github.com/webpack/webpack) + [wepback dev server](h
 </div>
 
 It includes this loaders:
+
 1. css-loader
 2. style-loader
 3. file-loader
 4. url-loader
 
 And it works from the box with this file types:
+
 1. Stylesheets - css
 2. Static files - gif/png/jpg/svg
 3. Fonts - woff2/ttf/eot
