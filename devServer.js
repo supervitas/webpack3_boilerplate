@@ -2,10 +2,10 @@
 const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
-var path = require("path");
+var path = require('path');
 
-config.entry.app.unshift("webpack-dev-server/client?http://localhost:3000/", "webpack/hot/dev-server");
-config['devtool'] = "source-map",
+config.entry.app.unshift('webpack-dev-server/client?http://localhost:3000/', 'webpack/hot/dev-server');
+config['devtool'] = 'eval-source-map',
 config['plugins'].push(
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulesPlugin()
