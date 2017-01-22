@@ -8,7 +8,7 @@ Minimal [webpack 2](https://github.com/webpack/webpack) + [wepback dev server](h
   </a>
   <h1>Webpack 2 Minimal Boilerplate</h1>
 </div>
-About this boilerplate:
+#About this boilerplate:
 
 This boilerplate includes minimum loaders and settings to start working with webpack 2, its great for starting new projects and adding necessary loaders on demand.
 
@@ -25,7 +25,7 @@ And it works from the box with this file types:
 2. Static files - gif/png/jpg/svg
 3. Fonts - woff2/ttf/eot
 
-Instalation:
+#Instalation:
 
 1. Clone this repository
 2. Run ```npm install ```
