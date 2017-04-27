@@ -8,6 +8,7 @@ Minimal [webpack 2](https://github.com/webpack/webpack) + [wepback dev server](h
   </a>
   <h1>Webpack 2 Minimal Boilerplate</h1>
 </div>
+
 ## About this boilerplate:
 
 This boilerplate includes minimum loaders and settings to start working with webpack 2, its great for starting new projects and adding necessary loaders on demand.
