@@ -25,7 +25,7 @@ And it works from the box with this file types:
 2. Static files - gif/png/jpg/svg
 3. Fonts - woff2/ttf/eot
 
-##Instalation:
+## Instalation:
 
 1. Clone this repository
 2. Run ```npm install ```
