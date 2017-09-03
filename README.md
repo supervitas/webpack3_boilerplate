@@ -1,12 +1,12 @@
-# Webpack 2 Minimal Boilerplate
-Minimal [webpack 2](https://github.com/webpack/webpack) + [wepback dev server](https://github.com/webpack/webpack-dev-server) boilerplate (without babel) for modern development.
+# Webpack 3 Minimal Boilerplate
+Minimal [webpack 3](https://github.com/webpack/webpack) + [wepback dev server](https://github.com/webpack/webpack-dev-server) boilerplate (without babel) for modern development.
 
 <div align="center">
   <a href="https://github.com/webpack/webpack">
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <h1>Webpack 2 Minimal Boilerplate</h1>
+  <h1>Webpack 3 Minimal Boilerplate</h1>
 </div>
 
 ## About this boilerplate:
@@ -26,7 +26,7 @@ And it works from the box with this file types:
 2. Static files - gif/png/jpg/svg
 3. Fonts - woff2/ttf/eot
 
-## Instalation:
+## Installation:
 
 1. Clone this repository
 2. Run ```npm install ```
