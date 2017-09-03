@@ -11,7 +11,7 @@ Minimal [webpack 3](https://github.com/webpack/webpack) + [wepback dev server](h
 
 ## About this boilerplate:
 
-This boilerplate includes minimum loaders and settings to start working with webpack 2, its great for starting new projects and adding necessary loaders on demand.
+This boilerplate includes minimum loaders and settings to start working with webpack 3, its great for starting new projects and adding necessary loaders on demand.
 
 It includes this loaders:
 
