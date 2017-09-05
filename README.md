@@ -1,5 +1,5 @@
 # Webpack 3 Minimal Boilerplate
-Minimal [webpack 3](https://github.com/webpack/webpack) + [wepback dev server](https://github.com/webpack/webpack-dev-server) boilerplate (without babel) for modern development.
+Minimal [webpack 3](https://github.com/webpack/webpack) + [wepback dev server](https://github.com/webpack/webpack-dev-server) boilerplate (without babel).
 
 <div align="center">
   <a href="https://github.com/webpack/webpack">
@@ -31,4 +31,5 @@ And it works from the box with this file types:
 1. Clone this repository
 2. Run ```npm install ```
 3. To start dev server with working HMR run ``` npm start ```
+4. For production run ``` npm run build ```
 
