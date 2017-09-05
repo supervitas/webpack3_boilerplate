@@ -1,4 +1,7 @@
-const path = require('path');
+const path = require("path");
+const isProd = process.env.NODE_ENV === 'production';
+
+const plugins = [];
 
 module.exports = {  
     entry: {
@@ -15,7 +18,7 @@ module.exports = {
     maxEntrypointSize: 4000000, // int (in bytes)
     assetFilter: function(assetFilename) { 
         // Function predicate that provides asset filenames
-        return assetFilename.endsWith('.css') || assetFilename.endsWith('.js');
+            return assetFilename.endsWith('.css') || assetFilename.endsWith('.js');
         }
     },
      module: {
@@ -26,7 +29,7 @@ module.exports = {
             { test: /\.(ttf|eot|svg)$/, loader: 'file-loader?name=dist/fonts/[name].[ext]' }
         ]
   },
-  devtool: "source-map",
-  plugins: [],
+  devtool: isProd ? 'none' : 'eval-source-map',
+  plugins,
 
 };
